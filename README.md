@@ -14,18 +14,18 @@
 
 ---
 
-### 🧠 Overview
+### Overview
 
 The **Kesra AI Customer Retention Agent** is an autonomous AI system designed to proactively identify at-risk customers, analyze their sentiment, and engage them with highly personalized retention strategies. By leveraging Retrieval-Augmented Generation (RAG), the agent accesses historical interaction data to craft context-aware responses and offers, significantly reducing churn rates.
 
-### ⚙️ Core Architecture
+### Core Architecture
 
 - **Semantic Search (RAG):** Utilizes `Pinecone` vector databases to instantly retrieve relevant customer history and company policies.
 - **Sentiment Analysis:** Continuously monitors customer communications to detect dissatisfaction early using NLP models.
 - **Automated Engagement:** Generates and dispatches hyper-personalized emails or messages using `OpenAI` LLMs orchestrated by `LangChain`.
 - **Data Processing:** Leverages `Pandas` for robust data wrangling of customer datasets prior to embedding.
 
-### 🚀 Key Features
+### Key Features
 
 1. **Predictive Churn Detection:** Flags customers with high churn probability based on interaction sentiment and activity drops.
 2. **Context-Aware Responses:** RAG architecture ensures the AI never hallucinates offers and always respects company retention guidelines.
